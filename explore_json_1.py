@@ -36,7 +36,7 @@ print(lats[:10])
 from plotly.graph_objs import Scattergeo, Layout
 from plotly import offline
 
-#data = [Scattergeo(lon=lons, lat=lats)]
+data = [Scattergeo(lon=lons, lat=lats)]
 
 data = [{
     'type': 'scattergeo',
